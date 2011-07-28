@@ -1,0 +1,8 @@
+application: html2canvas
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: html2canvas.py
